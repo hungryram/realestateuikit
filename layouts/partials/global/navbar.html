@@ -1,0 +1,67 @@
+<nav class="uk-box-shadow-small uk-navbar-container uk-padding-small uk-visible@s{{ if $.IsHome }}  uk-position-top{{ end }}" uk-navbar>
+    <div class="uk-navbar-left">
+      <a class="uk-navbar-item uk-logo" href="">
+          <img class="lazyload"
+              data-src=""
+              alt=""
+              data-sizes="auto"
+              >
+      </a>
+  </div>
+  <div class="uk-navbar-center">
+    <div>
+      <div>
+          <ul class="uk-navbar-nav">
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+
+          </ul>
+      </div>
+  </div>
+  </div>
+  <div class="uk-navbar-right">
+    <ul class="uk-navbar-nav">
+        <li><a href="#">Item</a></li>
+        <li><a href="#">Item</a></li>
+
+    </ul>
+  </div>
+</nav>
+
+<div
+    uk-sticky="animation: uk-animation-slide-top-medium; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-dark; top: 400">
+    <nav class="uk-navbar uk-navbar-container uk-hidden@s uk-padding-small uk-box-shadow-small">
+        <div class="uk-navbar-left">
+          <ul class="uk-navbar-nav">
+
+          </ul>
+        </div>
+        <div class="uk-navbar-center uk-text-center">
+            <a class="uk-navbar-item uk-logo" href="">
+                <img class="lazyload uk-text-center"
+                data-src=""
+                alt=""
+                data-sizes="auto"
+                style="max-width: 200px"></a>
+        </div>
+        <div class="uk-navbar-right">
+            <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#mobile-menu-slide" uk-toggle></a>
+        </div>
+    </nav>
+</div>
+<div id="mobile-menu-slide" uk-offcanvas>
+    <div class="uk-offcanvas-bar">
+        <ul class="uk-nav uk-nav-default uk-nav-center">
+            <img src="" alt="" width="100">
+            <li class="uk-nav-header">Browse The Site</li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+
+            <li class="uk-nav-divider"></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+        </ul>
+    </div>
+</div>

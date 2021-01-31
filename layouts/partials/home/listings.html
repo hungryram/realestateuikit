@@ -1,0 +1,9 @@
+<div class="uk-section">
+    <div class="uk-container">
+        {{ if $.Site.Data.idx.incomplete_subdomain }}
+        <script type="text/javascript" src="https://{{ $.Site.Data.idx.incomplete_subdomain }}.idxhome.com/site/listing/gallery/slider/{{ $.Site.Data.idx.ihf_client_id }}?columns=3&amp;rows=1&amp;effect=fade&amp;auto=false"></script>
+        {{ else }}
+        <script type="text/javascript" src="https://{{ $.Site.Data.idx.complete_subdomain }}/site/listing/gallery/slider/{{ $.Site.Data.idx.ihf_client_id }}?columns=3&amp;rows=1&amp;effect=fade&amp;auto=false"></script>
+        {{ end }}
+    </div>
+</div>

@@ -1,0 +1,54 @@
+/* TYPOGRAPHY */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+a.uk-button-secondary,
+button.uk-button-secondary {
+    background: #DBBAAA;
+}
+
+p {
+    line-height: 2;
+    color: #888888;
+}
+
+/* HERO */
+
+.heading {
+    font-family: 'Playfair Display', serif;
+}
+
+.home-blocks a svg {
+    width: 100px!important;
+    height:100px!important;
+}
+
+/* INTRO */
+
+div.intro:after {
+    content: "";
+    position: absolute;
+    width: 400px;
+    background: #eae1db;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* HOME BLOCKS */
+
+div.home-blocks span {
+    background: #DBBAAA;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    color: #ffffff;
+}
